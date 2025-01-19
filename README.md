@@ -27,7 +27,7 @@ transformers:
   - [fully-qualified-name-of-transformer]
   - ... etc
 ``` 
-* Run `java -jar deobfuscator.jar`
+* Run `java -jar deobfuscator.jar --config config.yml`
 * Re-run the detection if the JAR was not fully deobfuscated - it's possible to layer obfuscations
 
 Take a look at [USAGE.md](USAGE.md) or [wiki](https://github.com/java-deobfuscator/deobfuscator/wiki) for more information.
